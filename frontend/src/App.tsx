@@ -1,10 +1,11 @@
-import React from 'react'
+import Container from './components/Container'
+import MainPage from './pages/MainPage'
 
 function App() {
   return (
-    <div className="App">
-      <h2 className="text-red-500 text-3xl">Hello World</h2>
-    </div>
+    <Container>
+      <MainPage />
+    </Container>
   )
 }
 
